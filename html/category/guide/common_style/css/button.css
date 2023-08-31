@@ -1,0 +1,208 @@
+/* 버튼 정렬은 common.css 없을 경우 넣어주세요. */
+/* 왼쪽 정렬 버튼영역 */
+.btn_area_ta_l{padding-top:20px;text-align:left}
+/* 오른쪽 정렬 버튼영역 */
+.btn_area_ta_r{padding-top:20px;text-align:right}
+/* 양쪽 배분 버튼 */
+.btn_both{clear:both;width:100%;padding-top:21px}
+.btn_both:after{display:block;clear:both;content:''}
+.btn_both .fl{float:left}
+.btn_both .fr{float:right}
+/* 공통 버튼 스타일 */
+/* inline-block 여백 주의 -  감싸고 있는 div에 font-size, letter-spacing, word-spacing을 0px 지정 => 크로스 브라우징 안될시 float으로 재정의 요망 */
+.btn_pack,
+.btn_pack a,
+.btn_pack span{display:inline-block;overflow:visible;position:relative;margin:0;padding:0;border:0;background:url(../images/common/btn_pack.png) no-repeat;font-size:11px;font-family:'맑은고딕',Malgun Gothic,Dotum,'돋움',Helvetica,AppleSDGothicNeo,sans-serif;font-weight:bold;color:#6c6f76;text-align:center;text-decoration:none;vertical-align:top;white-space:nowrap}
+.btn_pack{margin-right:2px}
+/* icon 정의 */
+.btn_pack .request{position:absolute;top:30%;right:3px;z-index:1;width:23px;height:11px;background-position:-20px -300px}
+.btn_pack .request_01{position:absolute;top:30%;right:13px;z-index:1;width:13px;height:11px;background-position:-30px -300px}
+.btn_pack .arr_01,
+.btn_pack .arr_02,
+.btn_pack .arr_03,
+.btn_pack .arr_04 {position:absolute;z-index:1;width:5px;height:7px}
+.btn_pack .arr_05 {position:absolute;z-index:1;width:7px;height:7px}
+.btn_pack .arr_06 {position:absolute;z-index:1;width:15px;height:11px}
+
+.btn_pack .arr_01,
+.btn_pack .arr_02{top:36%;right:3px}
+.btn_pack .arr_01{background-position:0 -300px}
+.btn_pack .arr_02{background-position:-10px -300px}
+.btn_pack .arr_03,
+.btn_pack .arr_04 {top:43%;right:6px}
+.btn_pack .arr_05 {top:38%;right:6px}
+
+.btn_pack .arr_06 {top:29%;right:6px}
+
+.btn_pack .arr_03{background-position:-80px -300px}
+.btn_pack .arr_04{background-position:-90px -300px}
+.btn_pack .arr_05{background-position:-100px -300px}
+.btn_pack .arr_06{background-position:-112px -300px}
+
+.btn_pack .arr_dw{position:absolute;top:40%;right:8px;z-index:1;width:9px;height:6px;background-position:-170px -300px}
+.btn_pack .arr_up{position:absolute;top:40%;right:8px;z-index:1;width:9px;height:6px;background-position:-180px -300px}
+
+.btn_pack .pdf{position:absolute;top:8%;right:0px;z-index:1;width:18px;height:20px;background-position:-145px -300px}
+.btn_pack .window{position:absolute;top:33%;left:8px;z-index:1;width:9px;height:9px;background-position:-48px -300px}
+.btn_pack .list{position:absolute;top:30%;left:8px;z-index:1;width:13px;height:10px;background-position:-62px -300px}
+.btn_pack a{left:3px;padding:0 8px 0 5px;cursor:pointer}
+
+/* btn_type_01 */
+.btn_pack.btn_type_01,
+.btn_pack.btn_type_01 a{height:26px;line-height:24px}
+.btn_pack.btn_type_01 a{background-position:right 0;font-size:12px}
+.btn_pack.btn_type_01 a:hover,
+.btn_pack.btn_type_01 a:active,
+.btn_pack.btn_type_01 a:focus{color:#6c6f76}
+/* btn_type_02 */
+.btn_pack.btn_type_02,
+.btn_pack.btn_type_02 a{height:26px;background-position:left -31px;line-height:24px}
+.btn_pack.btn_type_02 a{background-position:right -31px;font-size:12px;color:#fff}
+.btn_pack.btn_type_02 a:hover,
+.btn_pack.btn_type_02 a:active,
+.btn_pack.btn_type_02 a:focus{color:#fff}
+/* btn_type_03 */
+.btn_pack.btn_type_03,
+.btn_pack.btn_type_03 a{height:26px;background-position:left -62px;line-height:24px}
+.btn_pack.btn_type_03 a{padding:0 18px 0 5px;background-position:right -62px;font-size:12px;color:#fff}
+.btn_pack.btn_type_03 a:hover,
+.btn_pack.btn_type_03 a:active,
+.btn_pack.btn_type_03 a:focus{color:#fff}
+/* btn_type_04 */
+.btn_pack.btn_type_04,
+.btn_pack.btn_type_04 a{height:27px;background-position:left -93px;line-height:25px}
+.btn_pack.btn_type_04 a{background-position:right -93px;font-size:12px;color:#fff}
+.btn_pack.btn_type_04 a:hover,
+.btn_pack.btn_type_04 a:active,.btn_pack.btn_type_04 a:focus{color:#fff}
+/* btn_type_05 */
+.btn_pack.btn_type_05,
+.btn_pack.btn_type_05 a{height:26px;background-position:left -125px;line-height:24px}
+.btn_pack.btn_type_05 a{padding:0 38px 0 5px;background-position:right -125px;font-size:12px}
+.btn_pack.btn_type_05 a:hover,
+.btn_pack.btn_type_05 a:active,
+.btn_pack.btn_type_05 a:focus{color:#6c6f76}
+/* btn_type_06 */
+.btn_pack.btn_type_06,
+.btn_pack.btn_type_06 a{height:33px;background-position:left -156px;line-height:31px}
+.btn_pack.btn_type_06 a{background-position:right -156px;font-size:12px;color:#6c6f76}
+.btn_pack.btn_type_06 a:hover,
+.btn_pack.btn_type_06 a:active,
+.btn_pack.btn_type_06 a:focus{color:#6c6f76}
+/* btn_type_07 */
+.btn_pack.btn_type_07,
+.btn_pack.btn_type_07 a{height:33px;background-position:left -194px;line-height:31px}
+.btn_pack.btn_type_07 a{background-position:right -194px;font-size:12px;color:#fff}
+.btn_pack.btn_type_07 a:hover,
+.btn_pack.btn_type_07 a:active,
+.btn_pack.btn_type_07 a:focus{color:#fff}
+/* btn_type_08 */
+.btn_pack.btn_type_08,
+.btn_pack.btn_type_08 a{height:33px;background-position:left -232px;line-height:31px}
+.btn_pack.btn_type_08 a{background-position:right -232px;font-size:12px;color:#fff}
+.btn_pack.btn_type_08 a:hover,
+.btn_pack.btn_type_08 a:active,
+.btn_pack.btn_type_08 a:focus{color:#fff}
+/* btn_type_09 */
+.btn_pack.btn_type_09,
+.btn_pack.btn_type_09 a{height:26px;line-height:24px}
+.btn_pack.btn_type_09 a{padding:0 18px 0 5px;background-position:right 0;font-size:12px}
+.btn_pack.btn_type_09 a:hover,
+.btn_pack.btn_type_09 a:active,
+.btn_pack.btn_type_09 a:focus{color:#6c6f76}
+/* btn_type_10 */
+.btn_pack.btn_type_10,
+.btn_pack.btn_type_10 a{height:26px;background-position:left -62px;line-height:24px}
+.btn_pack.btn_type_10 a{background-position:right -62px;font-size:12px;color:#fff}
+.btn_pack.btn_type_10 a:hover,
+.btn_pack.btn_type_10 a:active,.btn_pack.btn_type_10 a:focus{color:#fff}
+/* btn_type_11 */
+.btn_pack.btn_type_11,
+.btn_pack.btn_type_11 a{height:26px;line-height:24px}
+.btn_pack.btn_type_11 a{padding:0 8px 0 18px;background-position:right 0;font-size:12px}
+.btn_pack.btn_type_11 a:hover,
+.btn_pack.btn_type_11 a:active,
+.btn_pack.btn_type_11 a:focus{color:#6c6f76}
+/* btn_type_12 */
+.btn_pack.btn_type_12,
+.btn_pack.btn_type_12 a{height:27px;background-position:left -93px;line-height:25px}
+.btn_pack.btn_type_12 a{padding:0 18px 0 5px;background-position:right -93px;font-size:12px;color:#fff}
+.btn_pack.btn_type_12 a:hover,
+.btn_pack.btn_type_12 a:active,
+.btn_pack.btn_type_12 a:focus{color:#fff}
+/* btn_type_13 */
+.btn_pack.btn_type_13,
+.btn_pack.btn_type_13 a{height:26px;line-height:24px}
+.btn_pack.btn_type_13 a{padding:0 8px 0 24px;background-position:right 0;font-size:12px}
+.btn_pack.btn_type_13 a:hover,
+.btn_pack.btn_type_13 a:active,
+.btn_pack.btn_type_13 a:focus{color:#6c6f76}
+/* btn_type_14 */
+.btn_pack.btn_type_14,
+.btn_pack.btn_type_14 a{height:23px !important;background-position:left -345px;line-height:22px !important}
+.btn_pack.btn_type_14 a{background-position:right -345px;font-size:12px;color:#fff !important}
+.btn_pack.btn_type_14 a:hover,
+.btn_pack.btn_type_14 a:active,
+.btn_pack.btn_type_14 a:focus{color:#fff !important}
+/* btn_type_15 */
+.btn_pack.btn_type_15,
+.btn_pack.btn_type_15 a{height:23px !important;background-position:left -373px;line-height:22px !important}
+.btn_pack.btn_type_15 a{background-position:right -373px;font-size:12px;color:#860026 !important}
+.btn_pack.btn_type_15 a:hover,
+.btn_pack.btn_type_15 a:active,
+.btn_pack.btn_type_15 a:focus{color:#860026 !important}
+/* btn_type_16 */
+.btn_pack.btn_type_16,
+.btn_pack.btn_type_16 a{height:33px;background-position:left -156px;line-height:31px}
+.btn_pack.btn_type_16 a{padding:0 33px 0 13px;background-position:right -156px;font-size:12px;color:#6c6f76}
+.btn_pack.btn_type_16 a:hover,
+.btn_pack.btn_type_16 a:active,
+.btn_pack.btn_type_16 a:focus{color:#6c6f76}
+/* btn_type_17 */
+.btn_pack.btn_type_17,
+.btn_pack.btn_type_17 a{height:33px;background-position:left -194px;line-height:31px}
+.btn_pack.btn_type_17 a{padding:0 18px 0 5px;background-position:right -194px;font-size:12px;color:#fff}
+.btn_pack.btn_type_17 a:hover,
+.btn_pack.btn_type_17 a:active,
+.btn_pack.btn_type_17 a:focus{color:#fff}
+/* btn_type_18 */
+.btn_pack.btn_type_18,
+.btn_pack.btn_type_18 a{height:33px;background-position:left -232px;line-height:31px}
+.btn_pack.btn_type_18 a{padding:0 18px 0 5px;background-position:right -232px;font-size:12px;color:#fff}
+.btn_pack.btn_type_18 a:hover,
+.btn_pack.btn_type_18 a:active,
+.btn_pack.btn_type_18 a:focus{color:#fff}
+/* btn_type_19 */
+.btn_pack.btn_type_19,
+.btn_pack.btn_type_19 a{height:43px;background-position:left -401px;line-height:41px}
+.btn_pack.btn_type_19 a{padding:0 80px 0 13px;background-position:right -401px;font-size:18px;font-weight:normal;color:#fff}
+.btn_pack.btn_type_19 a:hover,
+.btn_pack.btn_type_19 a:active,
+.btn_pack.btn_type_19 a:focus{color:#fff}
+/* btn_type_20 */
+.btn_pack.btn_type_20,
+.btn_pack.btn_type_20 a{height:43px;background-position:left -449px;line-height:41px}
+.btn_pack.btn_type_20 a{padding:0 80px 0 13px;background-position:right -449px;font-size:18px;font-weight:normal;color:#fff}
+.btn_pack.btn_type_20 a:hover,
+.btn_pack.btn_type_20 a:active,
+.btn_pack.btn_type_20 a:focus{color:#fff}
+/* btn_type_21 */
+.btn_pack.btn_type_21,
+.btn_pack.btn_type_21 a{height:27px;background-position:left -497px;line-height:25px}
+.btn_pack.btn_type_21 a{padding:0 26px 0 10px;background-position:right -497px;font-size:14px;font-weight:normal;color:#fff}
+.btn_pack.btn_type_21 a:hover,
+.btn_pack.btn_type_21 a:active,
+.btn_pack.btn_type_21 a:focus{color:#fff}
+/* btn_type_22 */
+.btn_pack.btn_type_22,
+.btn_pack.btn_type_22 a{height:26px;background-position:left -125px;line-height:24px}
+.btn_pack.btn_type_22 a{padding:0 34px 0 5px;background-position:right -125px;font-size:12px}
+.btn_pack.btn_type_22 a:hover,
+.btn_pack.btn_type_22 a:active,
+.btn_pack.btn_type_22 a:focus{color:#6c6f76}
+/* btn_type_23 */
+.btn_pack.btn_type_23,
+.btn_pack.btn_type_23 a{height:26px;line-height:24px}
+.btn_pack.btn_type_23 a{padding:0 28px 0 5px;background-position:right 0;font-size:12px}
+.btn_pack.btn_type_23 a:hover,
+.btn_pack.btn_type_23 a:active,
+.btn_pack.btn_type_23 a:focus{color:#6c6f76}

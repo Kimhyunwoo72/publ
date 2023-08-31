@@ -1,0 +1,71 @@
+/* 조선신명조 */
+@font-face {
+  font-family:"ChosunSm";
+  src:url("ChosunSm.TTF");
+}
+
+/* 노토산스 */
+@font-face {
+  font-family:"Noto Sans KR";
+  font-style:normal;
+  font-weight:100;
+  src:url("NotoSansKR_Thin.otf") format("opentype"),
+      url("NotoSansKR_Thin.woff") format("woff"),
+      url("NotoSansKR_Thin.woff2") format("woff2");
+}
+@font-face {
+  font-family:"Noto Sans KR";
+  font-style:normal;
+  font-weight:300;
+  src:url("NotoSansKR_Light.otf") format("opentype"),
+      url("NotoSansKR_Light.woff") format("woff"),
+      url("NotoSansKR_Light.woff2") format("woff2");
+}
+@font-face {
+  font-family:"Noto Sans KR";
+  font-style:normal;
+  font-weight:400;
+  src:url("NotoSansKR_Regular.otf") format("opentype"),
+      url("NotoSansKR_Regular.woff") format("woff"),
+      url("NotoSansKR_Regular.woff2") format("woff2");
+}
+@font-face {
+  font-family:"Noto Sans KR";
+  font-style:normal;
+  font-weight:500;
+  src:url("NotoSansKR_Regular.otf") format("opentype"),
+      url("NotoSansKR_Regular.woff") format("woff"),
+      url("NotoSansKR_Regular.woff2") format("woff2");
+}
+@font-face {
+  font-family:"Noto Sans KR";
+  font-style:normal;
+  font-weight:600;
+  src:url("NotoSansKR_Medium.otf") format("opentype"),
+      url("NotoSansKR_Medium.woff") format("woff"),
+      url("NotoSansKR_Medium.woff2") format("woff2");
+}
+@font-face {
+  font-family:"Noto Sans KR";
+  font-style:normal;
+  font-weight:bold;
+  src:url("NotoSansKR_Bold.otf") format("opentype"),
+    url("NotoSansKR_Bold.woff") format("woff"),
+    url("NotoSansKR_Bold.woff2") format("woff2");
+}
+@font-face {
+  font-family:"Noto Sans KR";
+  font-style:normal;
+  font-weight:800;
+  src:url("NotoSansKR_Bold.otf") format("opentype"),
+      url("NotoSansKR_Bold.woff") format("woff"),
+      url("NotoSansKR_Bold.woff2") format("woff2");
+}
+@font-face {
+  font-family:"Noto Sans KR";
+  font-style:normal;
+  font-weight:900;
+  src:url("NotoSansKR-Black.otf") format("opentype"),
+      url("NotoSansKR-Black.woff") format("woff"),
+      url("NotoSansKR-Black.woff2") format("woff2");
+}

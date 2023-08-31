@@ -1,0 +1,73 @@
+/* bbsSearch :: 검색 */
+.bbs_list{position:relative}
+.bbs_list .bbsSearch{margin-bottom:20px;padding:15px 0;background-color:#f6f6f6;text-align:center}
+.bbs_list .bbsSearch .sitelink{width:85px;height:31px;border:1px solid #d3d3d3}
+.bbs_list .bbsSearch .textBox{width:247px;height:25px;padding:3px 0 1px 4px;border:1px solid #d3d3d3}
+/* tbl_bbs_list :: 검색 리스트 */
+.bbs_list .tbl_bbs_list{width:100%;font-family:'돋움',Dotum;text-align:center}
+.bbs_list .tbl_bbs_list caption{overflow:hidden;position:absolute;top:auto;width:1px;height:1px;font-size:0;line-height:0;text-indent:-9999%}
+.bbs_list .tbl_bbs_list th{border-top:2px solid #860026;background:#f7f2f4 url(../images/common/top_line.gif) 100% 50% no-repeat;font-size:14px;color:#333}
+.bbs_list .tbl_bbs_list td,
+.bbs_list .tbl_bbs_list th{padding:12px 0 12px;border-bottom:1px solid #e5e5e5}
+.bbs_list .tbl_bbs_list th.lst{background-image:none}
+.bbs_list .tbl_bbs_list td{border-left:1px solid #e5e5e5;font-size:13px;}
+.bbs_list .tbl_bbs_list tr.fixed td.bbs_tit,
+.bbs_list .tbl_bbs_list tr.fixed td{border:none;border-bottom:1px solid #e5e5e5;background-color:#fbfbfb}
+.bbs_list .tbl_bbs_list tr.fixed td img{margin-top:-4px}
+.bbs_list .tbl_bbs_list tr.fixed td strong{color:#4c4c4c}
+.bbs_list .tbl_bbs_list tr.bdl_n th,
+.bbs_list .tbl_bbs_list tr.bdl_n td{border-left:0}/* border left line remove */
+.bbs_list .tbl_bbs_list tr td.bbs_tit{padding-left:24px;border-right:1px solid #e5e5e5;border-left:1px solid #e5e5e5;text-align:left}
+.bbs_list .tbl_bbs_list tr td.bbs_tit a{display:block;overflow:hidden;width:315px;white-space:nowrap;text-overflow:ellipsis}
+.bbs_list .tbl_bbs_list tr td.bd_r{border-right:1px solid #e5e5e5}/* border right line */
+/* paging_comm 페이징 */
+.paging_comm{margin:30px 0 0;font-weight:bold;font-size:14px;line-height:14px;text-align:center;vertical-align:top}
+.paging_comm .img_sample{width:23px;height:18px;background:url(../images/common/btn_pg_sprites.gif) no-repeat 0 0;text-indent:-9999px}
+.paging_comm .link_page{display:inline-block;margin-right:-5px;padding:5px 9px 7px;border:1px solid #fff;text-decoration:none}
+.paging_comm .link_page:hover,
+.paging_comm .link_page:active,
+.paging_comm .link_page:focus,
+.paging_comm em.link_page{border:1px solid #860026;background-image:none;font-weight:bold;color:#860026}
+.paging_comm .img_sample{display:inline-block;padding:6px 2px 4px 3px;border:0 none;font-weight:normal;color:#999;text-decoration:none}
+.paging_comm .link_page:hover{text-decoration:none}
+.paging_comm .link_page{background:url(../images/common/ico_pg_line.gif) 100% 50% no-repeat}
+.paging_comm em.link_page,
+.paging_comm .link_page.lst{background-image:none}
+.paging_comm .btn_prev_end{background-position:0 0}
+.paging_comm .btn_prev{margin-right:5px;background-position:-28px 0}
+.paging_comm .btn_next{margin-left:5px;background-position:-28px -28px}
+.paging_comm .btn_next_end{background-position:0 -28px}
+/* 게시판 자세히 보기 view */
+.bbs_view .tbl_bbs_view{width:100%;border-top:2px solid #860026;font-family:'돋움',Dotum;color:#303030}
+.bbs_view .tbl_bbs_view th.tit_m{font-weight:bold}
+.bbs_view .tbl_bbs_view th.tit_s{background:url(../images/common/ico_tbl_bbs_view.gif) 100% 50% no-repeat}
+.bbs_view .tbl_bbs_view thead td img{margin:-2px 5px 0 0}
+.bbs_view .tbl_bbs_view th{font-weight:normal}
+.bbs_view .tbl_bbs_view th,
+.bbs_view .tbl_bbs_view td{padding:13px 0 12px 22px;border-bottom:1px solid #d9d9d9;text-align:left}
+.bbs_view .tbl_bbs_view td.cont{padding:8px 0}
+.bbs_view .tbl_bbs_view .txt_box{overflow-x:hidden;overflow-y:auto;min-height:311px;padding:15px 10px;font-size:12px;line-height:160%;word-break:break-all}
+
+/* 게시판 글쓰기 write */
+.bbs_write .tbl_bbs_write{width:100%}
+.bbs_write .txt_critical{padding-bottom:12px;text-align:right}
+.bbs_write .tbl_bbs_write th,
+.bbs_write .tbl_bbs_write td{padding:13px 0 12px 20px;border-bottom:1px solid #d9d9d9;font-family:'돋움',Dotum;font-size:13px;text-align:left}
+.bbs_write .tbl_bbs_write th{border-right:1px solid #d9d9d9;background-color:#fbfbfb;color:#333}
+.bbs_write .tbl_bbs_write tr.fir th,
+.bbs_write .tbl_bbs_write tr.fir td{border-top:2px solid #860026}
+.bbs_write .tbl_bbs_write td input[type=checkbox]{margin-top:0}
+.bbs_write .tbl_bbs_write td input[type=radio]{margin-top:-2px}
+.bbs_write .tbl_bbs_write td label{margin-right:20px}
+.bbs_write .tbl_bbs_write td input[type=text]{border:1px solid #d3d3d3}
+.bbs_write .tbl_bbs_write td input.input_type_01{width:96%;height:19px;padding:3px 0 1px 4px}
+.bbs_write .tbl_bbs_write td input.input_type_03{width:89px;height:18px;padding:3px 0 1px 4px}
+.bbs_write .tbl_bbs_write td input.input_type_04{width:39%;height:18px;padding:3px 0 1px 4px}
+.bbs_write .tbl_bbs_write td img{vertical-align:middle}
+.bbs_write .tbl_bbs_write .cont{padding:14px 0 15px}
+.bbs_write .tbl_bbs_write .txt_area{width:94%;min-height:220px;padding:20px;border:1px solid #bfbfbf;line-height:160%;resize:none}
+.bbs_write .find_file{overflow:hidden;position:relative;height:27px}
+.bbs_write .find_file input.input_type_02{float:left;width:70%;height:22px;border:1px solid #d3d3d3}
+.bbs_write .find_file .btn_wrap_02{padding-left:10px}
+.bbs_write .find_file .btn_wrap_02 .btn_pack{top:0;left:5px}
+.bbs_write .find_file input.hidden_file{position:absolute;top:0;left:0;width:83%;height:24px;cursor:pointer;opacity:0;filter:alpha(opacity=0);-ms-filter:'alpha(opacity=0)';-khtml-opacity:0;-moz-opacity:0}

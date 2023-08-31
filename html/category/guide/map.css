@@ -1,0 +1,155 @@
+@charset "UTF-8";
+
+.map-title{text-align:center;margin:100px
+auto;font-size:20px;background:#0067acde;border-radius:15px;padding:20px;box-sizing:border-box;color:#fff;width:500px;}
+.mapwrap{margin-top:100px;padding:0 20px 200px;box-sizing:border-box;}
+.maptap ul{border-bottom:1px solid #ddd;}
+.maptap ul:after{content:'';display:block;clear:both;}
+.maptap ul li{border:1px solid
+#ddd;border-bottom:0;box-sizing:border-box;width:100px;height:40px;line-height:40px;float:left;}
+.maptap ul li a{display:block;text-align:center;}
+.maptap ul li.on{background:#0067acde;}
+.maptap ul li.on a{color:#fff;}
+.maptap ul li + li{border-left:0;}
+
+.mapcont .maplist{display:none;}
+.mapcont .maplist.on{display:block;}
+.maplist > p{font-size:20px;font-weight:bold;margin-top:20px;}
+.maplist table{width:100%;margin-top:10px;}
+.maplist table * {font-size: 16px;}
+.maplist table thead th, td{padding:10px;box-sizing:border-box;font-size:12px;letter-spacing:-0.05em;}
+.maplist table th{background:#0067acde;color:#fff;border:1px solid #ddd;box-sizing:border-box;}
+.maplist table th + th{border-left:0;}
+.maplist table tbody td + td{border-left:0;}
+.maplist table tbody td{padding: 10px; border:1px solid #ddd;box-sizing:border-box;border-top:0;}
+.maplist table tbody td a{font-size:14px;color:blue;}
+.maplist table tbody td p{font-size:14px;}
+.maplist table tbody td:nth-child(4),
+.maplist table tbody td:nth-child(5),
+.maplist table tbody td:nth-child(6),
+.maplist table tbody td:nth-child(7),
+.maplist table tbody td:nth-child(8){text-align:center;}
+
+.bg {position: fixed; top: 0; z-index: -1; opacity: .7;}
+/* body {
+padding: 0;
+margin: 0;
+overflow: hidden;
+height: 600px;
+}
+
+canvas {
+z-index: -1;
+padding: 0;
+margin: 0;
+}
+
+div.btnbg {
+z-index: -1;
+position: fixed;
+left: 0;
+top: 0;
+} */
+
+
+/* reset */
+body,
+div,
+dl,
+dt,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+textarea,
+p,
+blockquote,
+th,
+td,
+input,
+select,
+button,
+article,
+aside,
+details,
+menu,
+nav,
+section,
+figure,
+figcaption {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+/* 시멘틱 태그 초기화 */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+display: block;
+}
+
+
+/* 링크 초기화 */
+a {
+color: #000;
+text-decoration: none;
+}
+
+/* 목록 초기화 */
+ol,
+ul,
+li {
+list-style: none;
+}
+
+/* 스타일 초기화 */
+em,
+address {
+font-style: normal;
+}
+
+img,
+fieldset,
+button {
+border: 0;
+}
+
+i {
+font-style: normal;
+}
+
+button {
+cursor: pointer;
+}
+
+
+/* 테이블 초기화 */
+table {
+border-spacing: 0px;
+border-collapse: collapse;
+}
+.list01 td{background-color: rgb(255 233 233);}
+.list02 td{background-color: rgb(233 255 253);}
+.list03 td{background-color: rgb(245 233 255);}
+.list04 td{background-color: rgb(255 253 233);}
+.list05 td{background-color: rgb(239 255 233);}
+.list06 td{background-color: rgb(233 236 255);}

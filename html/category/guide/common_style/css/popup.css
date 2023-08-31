@@ -1,0 +1,112 @@
+/* common.css 에 넣어주세요 */
+/*--------------------------------------------
+레이어팝업 - 고려대학교 의과학연구지원센터(고려대학교 의과대학/의학전문대학원)
+---------------------------------------------*/
+/* 메인 알림 레이어 팝업 :: Layer Popup notice */
+#pop_notice{overflow:visible;position:absolute;line-height:normal}
+#pop_notice fieldset{border:1px solid #d9d9d9;border-top:none}
+#pop_notice legend{display:none}
+#pop_notice #pop_content{position:relative;z-index:3;background-color:#fff}
+#pop_notice .ly_header{padding:8px 0 13px 20px;border:1px solid #7c0023;background-color:#860026;font-size:17px;font-weight:bold;color:#fff;text-align:left}
+#pop_notice .ly_body{margin:0 20px;padding:26px 0 10px;color:#606060}
+#pop_notice .ly_body dt.tit_01{padding-bottom:16px;font-size:18px;color:#333}
+#pop_notice .ly_body dt.tit_02{padding:0 0 15px 16px;background:url(../images/common/ico_bul_01.gif) 0 20% no-repeat;font-size:15px;color:#682739}
+#pop_notice .ly_body dt{font-weight:bold;text-align:left}
+#pop_notice .ly_body dd table{width:100%;margin-bottom:21px;border-top:2px solid #860026;text-align:center}
+#pop_notice .ly_body dd table th,
+#pop_notice .ly_body dd table td{padding:10px 0 11px;border-bottom:1px solid #e5e5e5}
+#pop_notice .ly_body dd table thead th{background:#f7f2f4 url(../images/common/top_line.gif) 0 50% no-repeat;font-size:14px;color:#333}
+#pop_notice .ly_body dd table thead th:first-child{background-image:none}
+#pop_notice .ly_body dd table tbody{color:#484848}
+#pop_notice .ly_body dd table tbody th{background-color:#fbfbfb;font-size:13px}
+#pop_notice .ly_body dd table tbody td:first-child{border-left:1px solid #e5e5e5}
+#pop_notice .ly_body dd table tbody td{border-left:1px solid #e5e5e5}
+#pop_notice .close_layer{position:absolute;top:15px;right:19px}
+/* 메인 비주얼 레이어 팝업 :: Layer Popup */
+#pop_wrap{overflow:visible;position:absolute;line-height:normal;text-align:left}
+#pop_wrap img,
+#pop_wrap fieldset{border:none}
+#pop_wrap legend{display:none}
+.pop_content{position:relative;z-index:3;background:url(../images/common/bg_ly_popup_01.png) 0 0 no-repeat}
+.pop_content .btn_left,
+.pop_content .btn_right{display:block;overflow:hidden;position:absolute;top:17px;width:8px;height:12px;background:url(../images/common/ico_arr_pop_sprite_01.png) 0 0 no-repeat;text-indent:-9999px;cursor:pointer}
+.pop_content .btn_left{right:30px;background-position:0 0}
+.pop_content .btn_right{right:15px;background-position:-8px 0}
+.pop_content .mask_wrap{overflow:hidden;width:536px;margin:0 auto}
+.pop_content .cont_wrap{*zoom:1}
+.pop_content .cont_wrap:after{display:block;clear:both;content:''}
+.pop_content .cont_wrap li{float:left;width:536px}
+#pop_wrap .ly_header{margin:0 0 5px;padding:14px 0 8px 11px;font-size:13px;font-weight:bold;color:#fff;letter-spacing:-1px;text-align:left}
+#pop_wrap .ly_body{overflow-x:hidden;overflow-y:auto;width:506px;height:303px;margin:0 auto;padding:15px 15px 4px;background-color:#fff;font-size:12px;color:#444}
+#pop_wrap .ly_body dt{margin:0 0 9px}
+#pop_wrap .ly_body dd{margin:0 0 6px}
+#pop_wrap .close_layer{position:absolute;right:20px;bottom:10px}
+#pop_wrap #pop_footer{margin:0 0 0 18px;padding:9px 0 10px;text-align:left}
+#pop_wrap #pop_footer a{padding-left:11px;background:url(../images/common/ico_dot_02.gif) 0 58% no-repeat}
+#pop_wrap #pop_footer a,
+#pop_wrap #pop_footer img{vertical-align:top}
+#pop_wrap #pop_footer a{color:#fff}
+/* Layer Popup :: 게시판 비밀글 - 커뮤니티; */
+#pop_secret{overflow:visible;position:absolute;line-height:normal}
+#pop_secret fieldset{border: 1px solid #d9d9d9; border-top:none}
+#pop_secret legend{display:none}
+#pop_secret #pop_content{position:relative;z-index:3;background-color:#fff}
+#pop_secret .ly_header{padding:8px 0 13px 20px;border: 1px solid #7c0023;background-color:#860026;color:#fff;font-size:17px;font-weight:bold}
+#pop_secret .ly_body{margin:0 20px;padding:26px 0 30px;color:#606060;font-size:15px;text-align: center;}
+#pop_secret .ly_body dt{margin:0 0 22px;font-size:15px;}
+#pop_secret .ly_body dd .input_type_01{width:158px;height:20px;padding: 3px 0 1px 4px;border: 1px solid #dcdcdc;background-color: #fbfbfb;line-height:18px}
+#pop_secret .close_layer{position:absolute;top:15px;right:19px}
+/* 레이어팝업 달력 */
+.layer_calendar{position:absolute; top:0; left:300px; width:230px; border:1px solid #8e8e8e;background:#fff; z-index:10}
+.layer_calendar .layer_date_calen{padding:14px 0 14px 20px}
+.layer_calendar .layer_date_calen .btn_prev,
+.layer_calendar .layer_date_calen .btn_next{display:inline-block; vertical-align:top}
+.layer_calendar .layer_date_calen .date{display:inline-block;padding:0 5px; font-size:16px; font-weight:bold; color:#444}
+.layer_calendar .layer_year_calen{margin:0 10px 10px 10px;padding:10px 0 0 0; border-top:1px solid #f6ebee; }
+.layer_calendar .layer_year_calen:after{content:"";display:block; clear:both}
+.layer_calendar .layer_year_calen select{width:70px;height:25px; border:1px solid #d3d3d3; color:#666;}
+.layer_calendar .layer_year_calen .year{float:left}
+.layer_calendar .layer_year_calen .month{float:right}
+.layer_calendar .layer_tbl_calen{width:100%;margin-bottom:10px; }
+.layer_calendar .layer_tbl_calen th{padding:10px 5px; text-align:center; font-weight:normal; border:0; background:#f6ebee}
+.layer_calendar .layer_tbl_calen td{padding:5px 0; text-align:center;border:0}
+.layer_calendar .layer_tbl_calen .sun{color:#d02626}
+.layer_calendar .layer_tbl_calen .sat{color:#306eb2}
+.layer_calendar .layer_tbl_calen td a{padding:8px; text-align:center; }
+.layer_calendar .layer_tbl_calen td.selected a {color:#fff; background:url(../images/common/bg_calen_on.png) no-repeat center center}
+.layer_calendar .btn_layer_close{position:absolute; top:18px; right:18px}
+/* 레이어팝업 달력_쓰기폼테이블내에 있을경우*/
+.bbs_write .tbl_bbs_write .layer_calendar{display:none; position:absolute; top:0; left:300px; width:230px; border:1px solid #8e8e8e; background:#fff; z-index:10}
+.bbs_write .tbl_bbs_write .layer_calendar .layer_date_calen{padding:14px 0 14px 20px}
+.bbs_write .tbl_bbs_write .layer_calendar .layer_date_calen .btn_prev,
+.bbs_write .tbl_bbs_write .layer_calendar .layer_date_calen .btn_next{display:inline-block; vertical-align:top}
+.bbs_write .tbl_bbs_write .layer_calendar .layer_date_calen .date{display:inline-block;padding:0 5px; font-size:16px; font-weight:bold; color:#444}
+.bbs_write .tbl_bbs_write .layer_calendar .layer_tbl_calen{width:100%;margin-bottom:10px; }
+.bbs_write .tbl_bbs_write .layer_calendar .layer_tbl_calen th{padding:10px 5px; text-align:center; font-weight:normal; border:0; background:#f6ebee}
+.bbs_write .tbl_bbs_write .layer_calendar .layer_tbl_calen td{padding:5px 0; text-align:center;border:0}
+.bbs_write .tbl_bbs_write .layer_calendar .layer_tbl_calen .sun{color:#d02626}
+.bbs_write .tbl_bbs_write .layer_calendar .layer_tbl_calen .sat{color:#306eb2}
+.bbs_write .tbl_bbs_write .layer_calendar .layer_tbl_calen td a{padding:8px; text-align:center; }
+.bbs_write .tbl_bbs_write .layer_calendar .layer_tbl_calen td.selected a {color:#fff; background:url(../images/common/bg_calen_on.png) no-repeat center center}
+.bbs_write .tbl_bbs_write .layer_calendar .btn_layer_close{position:absolute; top:18px; right:18px}
+/* Layer Popup - 레이어팝업 :: 사용예약 시간선택 */
+#popReserveTime{overflow:visible;position:absolute;line-height:normal}
+#popReserveTime img{border: none;}
+#popReserveTime fieldset{border:1px solid #d6d6d6;border-top: none;}
+#popReserveTime legend{display:none}
+#popReserveTime #pop_content{position:relative;z-index:20;background:#fff}
+#popReserveTime .ly_header{padding:15px 0 15px 11px;background:#860026;color:#fff;font-size:17px;font-weight:bold}
+#popReserveTime .ly_body{margin:0 20px;padding:15px 0 4px;color:#444;font-size:12px}
+#popReserveTime .ly_body dt{margin:0 0 9px;font-size:15px;color: #606060;}
+#popReserveTime .ly_body dd{margin:0 0 6px}
+#popReserveTime .ly_body dd .tbl_time{width:100%;border: 1px solid #eaeaea;}
+#popReserveTime .ly_body dd .tbl_time caption{overflow: hidden;visibility:hidden;width:0;height:0;text-indent: -9999px;font-size:0;}
+#popReserveTime .ly_body dd .tbl_time .col_width{width:16%}
+#popReserveTime .ly_body dd .tbl_time td{padding:14px 0 15px;border-bottom:1px solid #eaeaea;background: #fbfbfb url(../images/common/bg_ly_popup_tbl_02.gif) 100% 50% no-repeat;text-align: center;color: #666;font-size: 13px;}
+#popReserveTime .ly_body dd .tbl_time td.lst{background-image: none;}
+#popReserveTime .ly_body dd .tbl_time td a.on{font-weight: bold;color: #860026;}
+#popReserveTime .ly_body dd .tbl_time td a.off{color: #b8b8b8;}
+#popReserveTime .close_layer{position:absolute;top:15px;right:19px}
+#popReserveTime #pop_footer{padding:10px 0 30px;text-align:center}
+#popReserveTime #pop_footer .btn_pack.btn_type_08 a,
+#popReserveTime #pop_footer .btn_pack.btn_type_06 a{font-size:14px;}

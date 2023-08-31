@@ -1,0 +1,94 @@
+<ul class="location__inner">
+    <li class="home">
+        <a href="../index.html"><img src="../../assets/resources/images/icon/home_gray.png" alt="home"></a>
+    </li>
+    <li class="dep dep_1 select_action" onclick="locationVar(0)">
+        <a href="javascript:void(0);"><span class="txt">은행소개</span><em class="icon_select_round"></em></a>
+        <ul class="con" style="display: none;">
+            <li><a href="#">연구지원</a></li>
+            <li><a href="#" target="_blank;">연구장비</a></li>
+            <li><a href="#" target="_blank;">강의지원</a></li>
+            <li><a href="#" target="_blank;">안전관리</a></li>
+            <li><a href="#" target="_blank;">예약시스템</a></li>
+            <li><a href="#" target="_blank;">소식</a></li>
+        </ul>
+    </li>
+    <li class="dep dep_2 select_action" onclick="locationVar(1)">
+        <a href="javascript:void(0);"><span class="txt">ESG경영</span><em class="icon_select_round"></em></a>
+        <ul class="con" style="display: none;">
+            <li><a href="javascript:;">소개</a></li>
+            <li><a href="javascript:;">규정</a></li>
+            <li><a href="javascript:;">조직도</a></li>
+            <li><a href="javascript:;">연혁</a></li>
+            <li><a href="javascript:;">연락처</a></li>
+            <li><a href="javascript:;">실험동물연구센터</a></li>
+            <li><a href="javascript:;">생물안전센터</a></li>
+            <li><a href="javascript:;">의학통계상담실</a></li>
+            <li><a href="javascript:;">안암병원</a></li>
+            <li><a href="javascript:;">구로병원</a></li>
+            <li><a href="javascript:;">안산병원</a></li>
+            <li><a href="javascript:;">자료실</a></li>
+            <li><a href="javascript:;">찾아오시는 길</a></li>
+        </ul>
+    </li>
+    <li class="dep dep_3 select_action" onclick="locationVar(2)">
+        <a href="javascript:void(0);"><span class="txt">ESG 원칙/정책</span><em class="icon_select_round"></em></a>
+        <ul class="con">
+            <li><a href="#">자료실</a></li>
+        </ul>
+    </li>
+</ul>
+<script>
+    let depBtn = document.querySelectorAll(".select_action");
+    depBtn.forEach((el) => {
+        el.addEventListener("mouseover", function () {
+            // 이벤트 발생 시 실행되는 로직을 여기에 작성합니다.
+            if ($(el).hasClass('active') == false) {
+                $(el).addClass('active');
+                $(el).find('.con').stop().slideDown(300); //내리는부분
+            }
+        });
+        el.addEventListener("mouseleave", function () {
+            $(el).removeClass('active');
+            $(el).find('.con').stop().slideUp(300); //내리는부분
+        });
+    });
+
+
+    // function locationVar(i) {
+    //     // 셀렉트 공통 select_action
+    //     console.log(i)
+    //     let selectActTime = 400;
+    //     if ($('.select_action:eq(' + i + ')').hasClass('active') == false) {
+    //         $('.select_action').removeClass('active');
+    //         $('.select_action').find('.con').stop().slideUp(selectActTime);
+    //         if (i == 0) {
+    //             $('.dep_1').addClass('active');
+    //             $('.dep_1').find('.con').stop().slideDown(selectActTime); //내리는부분
+    //         }
+    //         if (i == 1) {
+    //             $('.dep_2').addClass('active');
+    //             $('.dep_2').find('.con').stop().slideDown(selectActTime); //내리는부분
+    //         }
+    //         if (i == 2) {
+    //             $('.dep_3').addClass('active');
+    //             $('.dep_3').find('.con').stop().slideDown(selectActTime); //내리는부분
+    //         }
+    //     } else {
+    //         $('.select_action:eq(' + i + ')').removeClass('active');
+    //         $('.select_action:eq(' + i + ')').find('.con').stop().slideUp(selectActTime);
+
+    //     }
+    // };
+
+
+    // 외부영역 클릭시 로케이션바 닫기
+    $(document).mouseup(function (e) {
+        //select 닫기
+        let selectShow = $('.select_action');
+        if (selectShow.has(e.target).length === 0) {
+            $('.select_action .con').stop().slideUp(400);
+            $('.select_action').removeClass('active');
+        }
+    });
+</script>

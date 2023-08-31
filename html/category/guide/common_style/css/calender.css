@@ -1,0 +1,23 @@
+.cont_box-date_select{border-top:1px solid #b1bfc9;box-sizing:border-box;}
+.cont_box-date_select .month_select{text-align:center;padding:20px 0;box-sizing:border-box;position:relative;}
+.cont_box-date_select .month_select .f_eng{font-size:23px;font-weight:bold;color:#111;}
+.cont_box-date_select .month_select .monthbtn{border: solid #999;border-width: 0 1.5px 1.5px 0;display: inline-block;padding: 5px;position:absolute;top:50%;}
+.cont_box-date_select .month_select .monthbtn.month_next{transform: translateY(-50%) rotate(-45deg);-webkit-transform: translateY(-50%) rotate(-45deg);right:236px;}
+.cont_box-date_select .month_select .monthbtn.month_prev{transform: translateY(-50%) rotate(135deg);-webkit-transform: translateY(-50%) rotate(135deg);left:236px;}
+.cont_box-date_select .date_board .list_date table{width:100%;}
+.cont_box-date_select .date_board .list_date table th{font-size:15px;color:#333f45;font-weight:bold;padding-bottom:10px;}
+.cont_box-date_select .date_board .list_date table td{border:1px solid #b1bfc9;box-sizing:border-box;height:58px;}
+.cont_box-date_select .date_board .list_date table td a{width:100%;height:100%;display:block;padding:10px;box-sizing:border-box;}
+.cont_box-date_select .date_board .list_date table td a em{font-size:12px;color:#555;font-weight:600;text-align:center;vertical-align:top;}
+.cont_box-date_select .date_board .list_date table td a .nfbox{float:right;}
+.cont_box-date_select .date_board .list_date table td a .nfbox p{font-size: 12px;color:#fff;width:31px;height:15px;text-align:center;}
+.cont_box-date_select .date_board .list_date table td a .nfbox p + p{margin-top:2px;}
+.cont_box-date_select .date_board .list_date table td a .nfbox p.morning{background-color:#2a76b6;}
+.cont_box-date_select .date_board .list_date table td a .nfbox p.afternoon{background-color:#00a213;}
+.cont_box-date_select .date_board .list_date table td:first-child a em{color:#ff0000;border-left:0;}
+.cont_box-date_select .date_board .list_date table td:last-child a em{color:#0f51b3;}
+.cont_box-date_select .date_board .list_date table td em{}
+.cont_box-date_select .date_board .list_date table td.today em{position:relative;color:#fff;} 
+.cont_box-date_select .date_board .list_date table td.today em:before{content:'';display:block;background:#72838e;width:18px;height:18px;border-radius:50%;position:absolute;top:50%;left:50%;transform:translate(-50%, -50%);z-index:-1;}
+.cont_box-date_select .date_board .list_date table td.nactive a em{opacity:0.45;}
+.cont_box-date_select .date_board .list_date table td.able{background-color:#fff;}
